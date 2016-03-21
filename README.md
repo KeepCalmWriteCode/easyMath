@@ -17,7 +17,7 @@
 ####●EasyMath.findPower(int base, int result) 
 ####●EasyMath.power(int base, int power) :thumbsup:
 ####●EasyMath.isPrime(int p)  :thumbsup:
-####●EasyMath.absoluteValue(long n) :thumbsup:
+####●EasyMath.absoluteValue(n) :thumbsup:
 ####●EasyMath.squareRoot(int n)  :thumbsup:
 ####●EasyMath.getNumbersOfDigit(int n) :thumbsup:
 ####●EasyMath.createRandomSquareMatrix(int n) :thumbsup:
