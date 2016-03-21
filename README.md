@@ -3,6 +3,7 @@
 
 ##Methods
 
+####●EasyMath.print() :thumbsup:
 ####●EasyMath.determinant2DMatrix(double[][] matrix) :thumbsup:
 ####●EasyMath.AllPermutationOfString(String str) :thumbsup:
 ####●EasyMath.SubsetSum(int[] arr, int SUM) :thumbsup:
