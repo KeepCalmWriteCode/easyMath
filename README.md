@@ -13,12 +13,12 @@
 ####●EasyMath.multiply2DMatrix(int[][] firstMatrix,int[][] secondMatrix) :thumbsup:
 ####●EasyMath.isGoldenRatio(double x, double y) :thumbsup:
 ####●EasyMath.digitsOfFactorial(int n) :thumbsup:
-####●EasyMath.Logarithm(int base, int n) :thumbsup:
+####●EasyMath.Logarithm(double base, double n) :thumbsup:
 ####●EasyMath.findPower(int base, int result) :thumbsup: 
-####●EasyMath.power(int base, int power) :thumbsup:
+####●EasyMath.power(double base, double power) :thumbsup:
 ####●EasyMath.isPrime(int p)  :thumbsup:
 ####●EasyMath.absoluteValue(n) :thumbsup:
-####●EasyMath.squareRoot(int n)  :thumbsup:
+####●EasyMath.squareRoot(double n)  :thumbsup:
 ####●EasyMath.getNumbersOfDigit(int n) :thumbsup:
 ####●EasyMath.createRandomSquareMatrix(int n) :thumbsup:
 ####●EasyMath.PrimeFactors(int number) :thumbsup:
