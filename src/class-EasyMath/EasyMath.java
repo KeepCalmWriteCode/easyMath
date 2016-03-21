@@ -8,7 +8,7 @@ import javax.management.RuntimeErrorException;
 public class EasyMath {
 	private final static double GoldenRatio = 1.618;
 
-	public static double power(int base, int power) {
+	public static double power(double base, double power) {
 		return Math.pow(base, power);
 	}
 
@@ -39,7 +39,7 @@ public class EasyMath {
 			return true;
 		return false;
 	}
-	public static double Logarithm(int base, int n){
+	public static double Logarithm(double base, double n){
 		return Math.log(n) / Math.log(base);
 	}
 	public static double findPower(int base, int result){
