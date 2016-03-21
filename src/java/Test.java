@@ -5,7 +5,7 @@
 	int[][] B = {{1,2,1},{9,2,1},{2,2,3}};
 	 double N = 0;
 	try {
-		N = EasyMath.determinant2DMatrix(x);
+		N = determinant2DMatrix(x);
 	} catch (Exception e) {
 	
 		e.printStackTrace();
