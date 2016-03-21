@@ -4,7 +4,7 @@
     <property name="dir.classes" value="${dir.build}/classes"/>
     <property name="dir.jar"     value="${dir.build}/jar"/>
 
-    <property name="main-class"  value="java.class-EasyMath.EasyMath"/>
+    <property name="main-class"  value="math.EasyMath"/>
 
     <target name="clean">
         <delete dir="${dir.build}"/>
