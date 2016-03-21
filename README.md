@@ -27,7 +27,7 @@
 
 ## How to Contribute
 Do you want to improve existing code? Fork this project and send pull request to file EasyMath.java<br>
-Is your wish adding new methods? Fork this project and create your method under the language you want then send pull request.<br>
+Do you wish adding new methods? Fork this project and create your method under the language you want then send pull request.<br>
 If you want to apply this library to different programming languages, please contact via e-mail.<br>
 ### Please feel free to contribute!
 
