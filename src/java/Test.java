@@ -1,3 +1,4 @@
+	package math;
 	class Test{
 	public static void main(String...args){
 	double[][] x = {{1,2,3},{3,2,1},{2,1,3}};
@@ -5,7 +6,7 @@
 	int[][] B = {{1,2,1},{9,2,1},{2,2,3}};
 	 double N = 0;
 	try {
-		N = determinant2DMatrix(x);
+		N = EasyMath.determinant2DMatrix(x);
 	} catch (Exception e) {
 	
 		e.printStackTrace();
