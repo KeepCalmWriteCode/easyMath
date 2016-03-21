@@ -680,17 +680,18 @@ public class EasyMath {
 
         return listOfPrimeFactors;
     }
-    
-   public static int SubsetSum(int[] a, int s) {
-	    int o = 0,c = 0;
-        if(s==0)
-            c++;
+ 
+private static int o,c;
+static int SubsetSum(int[] a, int s) {
 
-        for(int i=o;i<a.length;)
-            SubsetSum(a,s-a[(o=++i)-1]);
+    if(s==0)
+        c++;
 
-        return c;
-    }
+    for(int i=o;i<a.length;)
+        SubsetSum(a,s-a[(o=++i)-1]);
+
+    return c;
+}
 
 }
 
