@@ -2,17 +2,54 @@ package math;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Set;
 
 import javax.management.RuntimeErrorException;
 
-public class EasyMath {
+public abstract class EasyMath  {
 	private final static double GoldenRatio = 1.618;
 
-	public static double power(double base, double power) {
-		return Math.pow(base, power);
+	public static void print(int n) {
+		System.out.println(n);
 	}
 
-	public static double squareRoot(int n) {
+	public static void print(char n) {
+		System.out.println(n);
+	}
+
+	public static void print(boolean n) {
+		System.out.println(n);
+	}
+
+	public static void print(long n) {
+		System.out.println(n);
+	}
+
+	public static void print(String n) {
+		System.out.println(n);
+	}
+
+	public static void print(float n) {
+		System.out.println(n);
+	}
+
+	public static void print(double n) {
+		System.out.println(n);
+	}
+
+	public static void print(ArrayList<Number> n) {
+		System.out.println(n);
+	}
+
+	public static void print(Set<Number> n) {
+		System.out.println(n);
+	}
+
+	public static double power(double d, double e) {
+		return Math.pow(d, e);
+	}
+
+	public static double squareRoot(double n) {
 		return Math.sqrt(n);
 	}
 
@@ -33,19 +70,20 @@ public class EasyMath {
 	}
 
 	public static boolean isGoldenRatio(double division, double divider) {
-		double res =  division / divider;
+		double res = division / divider;
 		if (res == GoldenRatio || res == GoldenRatio - 0.001
 				|| res == GoldenRatio + 0.001)
 			return true;
 		return false;
 	}
-	public static double Logarithm(double base, double n){
+
+	public static double Logarithm(double base, double n) {
 		return Math.log(n) / Math.log(base);
 	}
-	public static double findPower(int base, int result){
+
+	public static double findPower(int base, int result) {
 		return Logarithm(base, result);
 	}
-
 
 	public static long Permutation(int n, int r) {
 		long sum = 1;
@@ -55,19 +93,22 @@ public class EasyMath {
 		}
 		return sum;
 	}
+
 	public static double Combination(int n, int r) {
 		long sum = Permutation(n, r);
-		long divider= Integer.parseInt(getFactorial(r).toString());
-		return sum/divider;
+		long divider = Integer.parseInt(getFactorial(r).toString());
+		return sum / divider;
 	}
+
 	public static BigInteger getFactorial(int f) {
-		if(f>Integer.MAX_VALUE){
-			throw new RuntimeErrorException(null, "Input is bigger than Max Value of Integer");
+		if (f > Integer.MAX_VALUE) {
+			throw new RuntimeErrorException(null,
+					"Input is bigger than Max Value of Integer");
 		}
-	    BigInteger factorial = BigInteger.valueOf(1);
-	    for (int i = 1; i <= f; i++)
-	        factorial = factorial.multiply(BigInteger.valueOf(i));
-	    return factorial;
+		BigInteger factorial = BigInteger.valueOf(1);
+		for (int i = 1; i <= f; i++)
+			factorial = factorial.multiply(BigInteger.valueOf(i));
+		return factorial;
 	}
 
 	public static boolean isPrime(int p) {
@@ -93,7 +134,6 @@ public class EasyMath {
 		return (n == 0 || n == 1) ? 1 : (int) (Math.floor(Math.log10(n))) + 1;
 	}
 
-
 	public static int[][] transposeMatrix(int[][] n) {
 		int[][] transposed = new int[n[0].length][n.length];
 		for (int i = 0; i < n.length; i++) {
@@ -104,11 +144,13 @@ public class EasyMath {
 		}
 		return transposed;
 	}
-	public static int [][] createRandomSquareMatrix(int n){
-		int [][] matrix = new int [n][n];
+
+	public static int[][] createRandomSquareMatrix(int n) {
+		int[][] matrix = new int[n][n];
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
-				matrix[i][j] = (int) (((GoldenRatio+Math.PI+Math.E) * Math.random()) + 5);
+				matrix[i][j] = (int) (((GoldenRatio + Math.PI + Math.E) * Math
+						.random()) + 5);
 			}
 
 		}
@@ -188,6 +230,7 @@ public class EasyMath {
 		}
 
 	}
+
 	public static void print2DMatrix(boolean[][] n) {
 
 		for (int i = 0; i < n.length; i++) {
@@ -262,14 +305,15 @@ public class EasyMath {
 		}
 
 	}
+
 	public static boolean isSkewSymmetricMatrix(int[][] matrix) {
-		   for (int i = 0; i < matrix.length; ++i)
-		        for (int j = i + 1; j < matrix.length; ++j)
-		             if (matrix[i][j] != -matrix[j][i])
-		        return false;
-		        
-		        return true;
-		}
+		for (int i = 0; i < matrix.length; ++i)
+			for (int j = i + 1; j < matrix.length; ++j)
+				if (matrix[i][j] != -matrix[j][i])
+					return false;
+
+		return true;
+	}
 
 	public static int[][] multiply2DMatrix(int[][] firstMatrix,
 			int[][] secondMatrix) {
@@ -283,9 +327,11 @@ public class EasyMath {
 				}
 			}
 		} else {
-			throw new RuntimeErrorException(null, "Column number of first matrix" + "("
-					+ firstMatrix[0].length + ")  is not equal to row number"
-					+ "(" + secondMatrix.length + ") of second matrix");
+			throw new RuntimeErrorException(null,
+					"Column number of first matrix" + "("
+							+ firstMatrix[0].length
+							+ ")  is not equal to row number" + "("
+							+ secondMatrix.length + ") of second matrix");
 		}
 		return result;
 	}
@@ -307,7 +353,7 @@ public class EasyMath {
 			return Helper(Matrix, n);
 		} else {
 			Error e = new Error("Matematik");
-			throw new RuntimeErrorException(e,"Given matrix is not square!");
+			throw new RuntimeErrorException(e, "Given matrix is not square!");
 		}
 
 	}
@@ -331,33 +377,31 @@ public class EasyMath {
 		return sum;
 	}
 
-    public static ArrayList<Long> PrimeFactors(int number) {
-        long i;
-        ArrayList<Long> listOfPrimeFactors = new ArrayList<Long>();
-        for (i = 2; i <= number; i++) {
-            if (number % i == 0) {
-                number /= i;
-                listOfPrimeFactors.add(i);
-              i--;
-            }
-        }
+	public static ArrayList<Long> PrimeFactors(int number) {
+		long i;
+		ArrayList<Long> listOfPrimeFactors = new ArrayList<Long>();
+		for (i = 2; i <= number; i++) {
+			if (number % i == 0) {
+				number /= i;
+				listOfPrimeFactors.add(i);
+				i--;
+			}
+		}
 
-        return listOfPrimeFactors;
-    }
- 
-private static int o,c;
-public static int SubsetSum(int[] a, int s) {
+		return listOfPrimeFactors;
+	}
 
-    if(s==0)
-        c++;
+	private static int o, c;
 
-    for(int i=o;i<a.length;)
-        SubsetSum(a,s-a[(o=++i)-1]);
+	public static int SubsetSum(int[] a, int s) {
 
-    return c;
+		if (s == 0)
+			c++;
+
+		for (int i = o; i < a.length;)
+			SubsetSum(a, s - a[(o = ++i) - 1]);
+
+		return c;
+	}
+
 }
-
-}
-
-
-
