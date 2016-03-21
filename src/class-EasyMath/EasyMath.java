@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import javax.management.RuntimeErrorException;
 
 public class EasyMath {
-	private final static double GoldenRatio = 1.61803399;
+	private final static double GoldenRatio = 1.618;
 
 	public static double power(int base, int power) {
 		return Math.pow(base, power);
@@ -32,8 +32,8 @@ public class EasyMath {
 		return Math.abs(n);
 	}
 
-	public static boolean isGoldenRatio(int division, int divider) {
-		double res = (double) division / divider;
+	public static boolean isGoldenRatio(double division, double divider) {
+		double res =  division / divider;
 		if (res == GoldenRatio || res == GoldenRatio - 0.001
 				|| res == GoldenRatio + 0.001)
 			return true;
@@ -345,8 +345,8 @@ public class EasyMath {
         return listOfPrimeFactors;
     }
  
-	private static int o,c;
-	public static int SubsetSum(int[] a, int s) {
+private static int o,c;
+public static int SubsetSum(int[] a, int s) {
 
     if(s==0)
         c++;
@@ -355,7 +355,7 @@ public class EasyMath {
         SubsetSum(a,s-a[(o=++i)-1]);
 
     return c;
-	}
+}
 
 }
 
