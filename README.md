@@ -11,7 +11,7 @@
 ####●EasyMath.TransposeMatrix([][] n) :thumbsup:
 ####●EasyMath.print2DMatrix([][] n) :thumbsup:
 ####●EasyMath.multiply2DMatrix(int[][] firstMatrix,int[][] secondMatrix) :thumbsup:
-####●EasyMath.isGoldenRatio(int x, int y) :thumbsup:
+####●EasyMath.isGoldenRatio(double x, double y) :thumbsup:
 ####●EasyMath.digitsOfFactorial(int n) :thumbsup:
 ####●EasyMath.Logarithm(int base, int n) :thumbsup:
 ####●EasyMath.findPower(int base, int result) :thumbsup: 
