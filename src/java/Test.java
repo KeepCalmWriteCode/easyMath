@@ -1,5 +1,5 @@
 	package math;
-	class Test{
+	class Test extends EasyMath{
 	public static void main(String...args){
 	double[][] x = {{1,2,3},{3,2,1},{2,1,3}};
 	int[][] A = {{1,0,3},{3,9,1},{9,1,3}};
