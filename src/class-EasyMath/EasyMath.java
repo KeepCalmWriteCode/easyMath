@@ -346,7 +346,7 @@ public class EasyMath {
     }
  
 private static int o,c;
-static int SubsetSum(int[] a, int s) {
+public static int SubsetSum(int[] a, int s) {
 
     if(s==0)
         c++;
