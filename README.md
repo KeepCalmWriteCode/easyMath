@@ -1,4 +1,5 @@
 # EasyMath
+### Travis CI : [![Build Status](https://travis-ci.org/KeepCalmWriteCode/easyMath.svg?branch=master)](https://travis-ci.org/KeepCalmWriteCode/easyMath)
 ##EasyMath is an external library that includes following specific mathematical methods:
 
 ##Methods
