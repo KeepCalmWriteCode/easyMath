@@ -36,6 +36,83 @@ public abstract class EasyMath  {
 	public static void print(double n) {
 		System.out.println(n);
 	}
+	
+	public static void print(String[] array){
+		String s="";
+		for(int i=0; i<array.length; i++){
+			if(i!=array.length-1)
+				s+=array[i]+", ";
+			else
+				s+=array[i];
+		}
+		System.out.println(s);
+	}
+	
+	public static void print(char[] array){
+		String s="";
+		for(int i=0; i<array.length; i++){
+			if(i!=array.length-1)
+				s+=array[i]+", ";
+			else
+				s+=array[i];
+		}
+		System.out.println(s);
+	}
+	
+	public static void print(boolean[] array){
+		String s="";
+		for(int i=0; i<array.length; i++){
+			if(i!=array.length-1)
+				s+=array[i]+", ";
+			else
+				s+=array[i];
+		}
+		System.out.println(s);
+	}
+	
+	public static void print(int[] array){
+		String s="";
+		for(int i=0; i<array.length; i++){
+			if(i!=array.length-1)
+				s+=array[i]+", ";
+			else
+				s+=array[i];
+		}
+		System.out.println(s);
+	}
+	
+	public static void print(float[] array){
+		String s="";
+		for(int i=0; i<array.length; i++){
+			if(i!=array.length-1)
+				s+=array[i]+", ";
+			else
+				s+=array[i];
+		}
+		System.out.println(s);
+	}
+	
+	public static void print(double[] array){
+		String s="";
+		for(int i=0; i<array.length; i++){
+			if(i!=array.length-1)
+				s+=array[i]+", ";
+			else
+				s+=array[i];
+		}
+		System.out.println(s);
+	}
+	
+	public static void print(long[] array){
+		String s="";
+		for(int i=0; i<array.length; i++){
+			if(i!=array.length-1)
+				s+=array[i]+", ";
+			else
+				s+=array[i];
+		}
+		System.out.println(s);
+	}
 
 	public static void print(ArrayList<Number> n) {
 		System.out.println(n);
@@ -220,9 +297,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -235,9 +312,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -250,9 +327,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -265,9 +342,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -280,9 +357,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -295,9 +372,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
