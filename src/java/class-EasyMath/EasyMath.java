@@ -297,9 +297,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -312,9 +312,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -327,9 +327,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -342,9 +342,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -357,9 +357,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
@@ -372,9 +372,9 @@ public abstract class EasyMath  {
 
 		for (int i = 0; i < n.length; i++) {
 			System.out.print("{");
-			for (int j = 0; j < n[0].length; j++) {
+			for (int j = 0; j < n[i].length; j++) {
 				System.out.print(n[i][j]);
-				if (j != n[0].length - 1)
+				if (j != n[i].length - 1)
 					System.out.print(",");
 			}
 			System.out.print("}");
