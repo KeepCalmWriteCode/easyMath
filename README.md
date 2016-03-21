@@ -25,9 +25,15 @@
 ####●EasyMath.PrimeFactors(int number) :thumbsup:
 ####●EasyMath.isSkewSymmetricMatrix(int[][] matrix) :thumbsup:
 
+## How to Contribute
+Do you want to improve existing code? Fork this project and send pull request to file EasyMath.java
+Is your wish adding new methods? Fork this project and create your method under the language you want then send pull request.
+If you want to apply this library to different programming languages, please contact via e-mail.
+### Please feel free to contribute!
+
 ## Team Members:
 - Enes GÜNDAY   : *opsenes@gmail.com*
 - Ozan Onur Tek : *ozanonurtek@gmail.com*
 - Yüksel Mert SALAR : *mertsalar137@gmail.com* 
 
-#### Please feel free to contribute!
+
