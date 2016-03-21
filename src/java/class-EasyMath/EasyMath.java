@@ -480,5 +480,16 @@ public abstract class EasyMath  {
 
 		return c;
 	}
+	
+	//GCD returns the greatest common divisor of two numbers recursively.
+	public static int GCD(int a, int b) { 
+		return b==0 ? a : GCD(b, a%b); 
+		
+	}
+	//Returns least common multiple of two numbers. Uses GCD method of this library.
+	public static int LCM(int a, int b) {
+		return a * (b / GCD(a, b));
+	}
+	
 
 }
