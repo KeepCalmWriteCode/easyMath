@@ -11,3 +11,5 @@ jdk:
 branches:
   only:
     - master
+
+ant test
