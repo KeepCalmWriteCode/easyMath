@@ -345,8 +345,8 @@ public class EasyMath {
         return listOfPrimeFactors;
     }
  
-private static int o,c;
-public static int SubsetSum(int[] a, int s) {
+	private static int o,c;
+	public static int SubsetSum(int[] a, int s) {
 
     if(s==0)
         c++;
@@ -355,7 +355,7 @@ public static int SubsetSum(int[] a, int s) {
         SubsetSum(a,s-a[(o=++i)-1]);
 
     return c;
-}
+	}
 
 }
 
