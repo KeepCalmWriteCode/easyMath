@@ -14,7 +14,7 @@
 ####●EasyMath.isGoldenRatio(int x, int y) :thumbsup:
 ####●EasyMath.digitsOfFactorial(int n) :thumbsup:
 ####●EasyMath.Logarithm(int base, int n) :thumbsup:
-####●EasyMath.findPower(int base, int result) 
+####●EasyMath.findPower(int base, int result) :thumbsup: 
 ####●EasyMath.power(int base, int power) :thumbsup:
 ####●EasyMath.isPrime(int p)  :thumbsup:
 ####●EasyMath.absoluteValue(n) :thumbsup:
