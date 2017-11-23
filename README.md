@@ -4,27 +4,47 @@
 
 ##Methods
 
-####●EasyMath.print() :thumbsup:
-####●EasyMath.determinant2DMatrix(double[][] matrix) :thumbsup:
-####●EasyMath.AllPermutationOfString(String str) :thumbsup:
-####●EasyMath.SubsetSum(int[] arr, int SUM) :thumbsup:
-####●EasyMath.Combination(int n, int r) :thumbsup:
-####●EasyMath.Permutation(int n, int r) :thumbsup:
-####●EasyMath.TransposeMatrix([][] n) :thumbsup:
-####●EasyMath.print2DMatrix([][] n) :thumbsup:
-####●EasyMath.multiply2DMatrix(int[][] firstMatrix,int[][] secondMatrix) :thumbsup:
-####●EasyMath.isGoldenRatio(double x, double y) :thumbsup:
-####●EasyMath.digitsOfFactorial(int n) :thumbsup:
-####●EasyMath.Logarithm(double base, double n) :thumbsup:
-####●EasyMath.findPower(int base, int result) :thumbsup: 
-####●EasyMath.power(double base, double power) :thumbsup:
-####●EasyMath.isPrime(int p)  :thumbsup:
-####●EasyMath.absoluteValue(n) :thumbsup:
-####●EasyMath.squareRoot(double n)  :thumbsup:
-####●EasyMath.getNumbersOfDigit(int n) :thumbsup:
-####●EasyMath.createRandomSquareMatrix(int n) :thumbsup:
-####●EasyMath.PrimeFactors(int number) :thumbsup:
-####●EasyMath.isSkewSymmetricMatrix(int[][] matrix) :thumbsup:
+●EasyMath.print() :thumbsup:
+
+●EasyMath.determinant2DMatrix(double[][] matrix) :thumbsup:
+
+●EasyMath.AllPermutationOfString(String str) :thumbsup:
+
+●EasyMath.SubsetSum(int[] arr, int SUM) :thumbsup:
+
+●EasyMath.Combination(int n, int r) :thumbsup:
+
+●EasyMath.Permutation(int n, int r) :thumbsup:
+
+●EasyMath.TransposeMatrix([][] n) :thumbsup:
+
+●EasyMath.print2DMatrix([][] n) :thumbsup:
+
+●EasyMath.multiply2DMatrix(int[][] firstMatrix,int[][] secondMatrix) :thumbsup:
+
+●EasyMath.isGoldenRatio(double x, double y) :thumbsup:
+
+●EasyMath.digitsOfFactorial(int n) :thumbsup:
+
+●EasyMath.Logarithm(double base, double n) :thumbsup:
+
+●EasyMath.findPower(int base, int result) :thumbsup: 
+
+●EasyMath.power(double base, double power) :thumbsup:
+
+●EasyMath.isPrime(int p)  :thumbsup:
+
+●EasyMath.absoluteValue(n) :thumbsup:
+
+●EasyMath.squareRoot(double n)  :thumbsup:
+
+●EasyMath.getNumbersOfDigit(int n) :thumbsup:
+
+●EasyMath.createRandomSquareMatrix(int n) :thumbsup:
+
+●EasyMath.PrimeFactors(int number) :thumbsup:
+
+●EasyMath.isSkewSymmetricMatrix(int[][] matrix) :thumbsup:
 
 ## How to Contribute
 Do you want to improve existing code? Do you wish adding new methods? Fork this project and send pull request to file EasyMath.java<br>
